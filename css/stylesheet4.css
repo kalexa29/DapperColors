@@ -1,0 +1,177 @@
+/*stylesheet for results page*/
+#container{
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+/*    padding: 10px;*/
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+#results {
+    height: 350px;
+}
+img {
+    position:absolute;
+    top: 10px;
+    left: 20px;
+}
+eyeLayer {
+    z-index: 10;
+}
+skinlayer {
+    z-index: 10;
+}
+hairlayer {
+    z-index: 10;
+}
+
+/*eye filler*/
+.deep-brownEyeFiller, .honey-brownEyeFiller, .hazelEyeFiller, .greenEyeFiller, .deep-blueEyeFiller, .pale-blueEyeFiller, .greyEyeFiller, .violetEyeFiller {
+    background-repeat: no-repeat;
+    background-image: url("../pics/eye-swatches/EFeye-outline-swatch2328x340.png");
+    width: 291px;
+    height: 340px;
+}
+.deep-brownEyeFiller {
+    background-position: 0px 0px;
+}
+.honey-brownEyeFiller {
+    background-position: -291px 0px;
+}
+.hazelEyeFiller {
+    background-position: -582px 0px;
+}
+.greenEyeFiller {
+    background-position: -873px 0px;
+}
+.deep-blueEyeFiller {
+    background-position: -1164px 0px;
+}
+.pale-blueEyeFiller {
+    background-position: -1455px 0px;
+}
+.greyEyeFiller {
+    background-position: -1746px 0px;
+}
+.violetEyeFiller {
+    background-position: -2037px 0px;
+}
+
+/*skintone filler*/
+.darkSkinFiller, .tanSkinFiller, .mediumSkinFiller, .lightSkinFiller, .ivorySkinFiller {
+    background-repeat: no-repeat;
+    background-image: url("../pics/skin-swatches/SFskintone-outline-swatch1455x340.png");
+    width: 291px;
+    height: 340px;
+}
+.darkSkinFiller {
+    background-position: 0px 0px;
+}
+.tanSkinFiller {
+    background-position: -291px 0px;
+}
+.mediumSkinFiller {
+    background-position: -582px 0px;
+}
+.lightSkinFiller {
+    background-position: -873px 0px;
+}
+.ivorySkinFiller {
+    background-position: -1164px 0px;
+}
+
+/*hair filler*/
+.blackHairFiller, .dark-brownHairFiller, .light-brownHairFiller, .auburnHairFiller, .redHairFiller, .strawberry-blondeHairFiller, .dark-blondeHairFiller, .light-blondeHairFiller, .greyHairFiller {
+    background-repeat: no-repeat;
+    background-image: url("../pics/hair-swatches/HFhair-outline-swatch2619x340.png");
+    width: 291px;
+    height: 340px;
+}
+.blackHairFiller {
+    background-position: 0px 0px;
+}
+.dark-brownHairFiller {
+    background-position: -291px 0px;
+}
+.light-brownHairFiller {
+    background-position: -582px 0px;
+}
+.auburnHairFiller {
+    background-position: -873px 0px;
+}
+.redHairFiller {
+    background-position: -1164px 0px;
+}
+.strawberry-blondeHairFiller {
+    background-position: -1455px 0px;
+}
+.dark-blondeHairFiller {
+    background-position: -1746px 0px;
+}
+.light-blondeHairFiller {
+    background-position: -2037px 0px;
+}
+.greyHairFiller {
+    background-position: -2328px 0px;
+}
+/*color swatches*/
+#palette {
+    position:relative;
+    padding: 10px;
+    border-radius: 25px;
+}
+#circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 2px;
+}
+.red { 
+    background: hsl(0, 100%, 50%);
+}
+.orange {
+    background: hsl(45, 100%, 50%);
+}
+.yellow {
+    background: hsl(75, 100%, 50%);
+}
+.yellowgreen {
+    background: hsl(105, 100%, 50%); 
+}
+.green {
+    background: hsl(135, 100%, 50%);
+}
+.greencyan {
+    background: hsl(165, 100%, 50%);
+}
+.cyan {
+    background: hsl(195, 100%, 50%);
+}
+.cyanblue {
+    background: hsl(225, 100%, 50%);
+}
+.blue {
+    background: hsl(255, 100%, 50%);
+}
+.bluemagenta {
+    background: hsl(285, 100%, 50%);
+}
+.magenta {
+    background: hsl(315, 100%, 50%);
+}
+.redmagenta {
+    background: hsl(345, 100%, 50%);
+}
+.lightneutral {
+    background: hsl(0, 0%, 75%);
+}
+.mediumneutral {
+    background: hsl(0, 0%, 50%);
+}
+.darkneutral {
+    background: hsl(0, 0%, 0%);
+}
