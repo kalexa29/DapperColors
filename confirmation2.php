@@ -43,54 +43,46 @@
                     <input type="button" class="btn btn-lg btn-info pull-right" value="TRY AGAIN" onclick="window.location.href='http://localhost:8888/dapper/form4.php'">
                 </div>
             </div>
-            
+                <!--Formation: 4 / 3 / 4-->
             <div id="palette">
                 <div class="row">
-                      <div class="col-xs-12 col-md-20">
+                      <div class="col-xs-12 col-md-3">
                         <div id="circle" class="red"></div>
                     </div>
-                      <div class="col-xs-12 col-md-20">
+                      <div class="col-xs-12 col-md-3">
                         <div id="circle" class="orange"></div>
                     </div>
-                      <div class="col-xs-12 col-md-20">
+                      <div class="col-xs-12 col-md-3">
                         <div id="circle" class="yellow"></div>
                     </div>
-                    <div class="col-xs-12 col-md-20">
+                    <div class="col-xs-12 col-md-3">
                         <div id="circle" class="yellowgreen"></div>
                     </div>
-                      <div class="col-xs-12 col-md-20">
+                      
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
                         <div id="circle" class="green"></div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-20">
+                    <div class="col-xs-12 col-md-4">
                         <div id="circle" class="greencyan"></div>
                     </div>
-                      <div class="col-xs-12 col-md-20">
+                      <div class="col-xs-12 col-md-4">
                         <div id="circle" class="cyanblue"></div>
-                    </div>
-                      <div class="col-xs-12 col-md-20">
-                        <div id="circle" class="blue"></div>
-                    </div>
-                      <div class="col-xs-12 col-md-20">
-                        <div id="circle" class="bluemagenta"></div>
-                    </div>
-                      <div class="col-xs-12 col-md-20">
-                        <div id="circle" class="magenta"></div>
-                    </div>
-                      <div class="col-xs-12 col-md-20">
-                        <div id="circle" class="magentared"></div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-4">
-                        <div id="circle" class="darkneutral"></div>
+                    <div class="col-xs-12 col-md-3">
+                        <div id="circle" class="blue"></div>
                     </div>
-                    <div class="col-xs-12 col-md-4">
-                        <div id="circle" class="mediumneutral"></div>
+                      <div class="col-xs-12 col-md-3">
+                        <div id="circle" class="bluemagenta"></div>
                     </div>
-                    <div class="col-xs-12 col-md-4">
-                        <div id="circle" class="lightneutral"></div>
+                      <div class="col-xs-12 col-md-3">
+                        <div id="circle" class="magenta"></div>
+                    </div>
+                      <div class="col-xs-12 col-md-3">
+                        <div id="circle" class="magentared"></div>
                     </div>
                 </div>
             </div>

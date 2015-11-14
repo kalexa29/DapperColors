@@ -11,6 +11,16 @@
     position: relative;
     min-height: 100%;
 }
+
+input[type="tryagain"]{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    bottom: 0;
+}
+
 #results {
     height: 350px;
 }
@@ -54,10 +64,10 @@ hairlayer {
 .pale-blueEyeFiller {
     background-position: -1455px 0px;
 }
-.greyEyeFiller {
+.violetEyeFiller {
     background-position: -1746px 0px;
 }
-.violetEyeFiller {
+.greyEyeFiller {
     background-position: -2037px 0px;
 }
 
@@ -124,12 +134,23 @@ hairlayer {
     padding: 10px;
     border-radius: 25px;
 }
+
 #circle {
+    margin: auto;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     padding: 2px;
 }
+.pop {
+    margin: auto;
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    padding: 2px;
+    background: hsl(0, 0%, 0%);
+}
+
 .red { 
     background: hsl(0, 100%, 50%);
 }

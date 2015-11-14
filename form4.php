@@ -1,16 +1,5 @@
 <?php include_once "submit2.php"; ?>
-<html>
-    <head>
-        <meta name="description" content="Dapper Colors App">
-        <meta name="author" content="Katelynn Alexander">
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="http://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/stylesheet3.css">
-        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<?php include_once "lib/top.inc.php"; ?>
         <title>Feature Form</title>
     </head>
     <body>
@@ -209,10 +198,5 @@
                     <?php echo $success;?>
                 </div>
             </div>
-        </form>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    </body>
-</html>
+        </form>    
+<?php include_once "lib/bottom.inc.php"; ?>
