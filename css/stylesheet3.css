@@ -30,6 +30,13 @@ body img {
     border: 0;
     color: #000000;
 }
+footer {
+    position:fixed;
+    left: 85%;
+    bottom:0;
+    width:100%;
+    height:50px;   /* Height of the footer */
+}
 .deep-brownEyeS, .honey-brownEyeS, .hazelEyeS, .greenEyeS, .deep-blueEyeS, .pale-blueEyeS, .greyEyeS, .violetEyeS {
     background-repeat: no-repeat;
     background-image: url("../pics/eye-swatches/eyecolorSwatchCombo960x120.png ");

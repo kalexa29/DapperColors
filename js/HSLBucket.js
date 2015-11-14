@@ -783,15 +783,15 @@ function setDeepPaletteCircles(){
     setCircle('red', generateDeep(generateRed())); //red
     setCircle('orange', generateDeep(generateOrange())); //orange
     setCircle('yellow', generateDeep(generateYellow())); //yellow
-    setCircle('yellowGreen', generateDeep(generateYellowGreen())); //yellowGreen
+    setCircle('yellowgreen', generateDeep(generateYellowGreen())); //yellowGreen
     setCircle('green', generateDeep(generateGreen())); //green
-    setCircle('greenCyan', generateDeep(generateGreenCyan())); //greenCyan
+    setCircle('greencyan', generateDeep(generateGreenCyan())); //greenCyan
     setCircle('cyan', generateDeep(generateCyan())); //cyan
-    setCircle('cyanBlue', generateDeep(generateCyanBlue())); //cyanBlue
+    setCircle('cyanblue', generateDeep(generateCyanBlue())); //cyanBlue
     setCircle('blue', generateDeep(generateBlue())); //blue
-    setCircle('blueMagenta', generateDeep(generateBlueMagenta())); //blueMagenta
+    setCircle('bluemagenta', generateDeep(generateBlueMagenta())); //blueMagenta
     setCircle('magenta', generateDeep(generateMagenta())); //magenta
-    setCircle('magentaRed', generateDeep(generateMagentaRed())); //magentaRed
+    setCircle('magentared', generateDeep(generateMagentaRed())); //magentaRed
 }
 
 /**
@@ -889,15 +889,15 @@ function setJewelPaletteCircles(){
     setCircle('red', generateJewel(generateRed())); //red
     setCircle('orange', generateJewel(generateOrange())); //orange
     setCircle('yellow', generateJewel(generateYellow())); //yellow
-    setCircle('yellowGreen', generateJewel(generateYellowGreen())); //yellowGreen
+    setCircle('yellowgreen', generateJewel(generateYellowGreen())); //yellowGreen
     setCircle('green', generateJewel(generateGreen())); //green
-    setCircle('greenCyan', generateJewel(generateGreenCyan())); //greenCyan
+    setCircle('greencyan', generateJewel(generateGreenCyan())); //greenCyan
     setCircle('cyan', generateJewel(generateCyan())); //cyan
-    setCircle('cyanBlue', generateJewel(generateCyanBlue())); //cyanBlue
+    setCircle('cyanblue', generateJewel(generateCyanBlue())); //cyanBlue
     setCircle('blue', generateJewel(generateBlue())); //blue
-    setCircle('blueMagenta', generateJewel(generateBlueMagenta())); //blueMagenta
+    setCircle('bluemagenta', generateJewel(generateBlueMagenta())); //blueMagenta
     setCircle('magenta', generateJewel(generateMagenta())); //magenta
-    setCircle('magentaRed', generateJewel(generateMagentaRed())); //magentaRed
+    setCircle('magentared', generateJewel(generateMagentaRed())); //magentaRed
 }
 
 /**
@@ -1025,15 +1025,15 @@ function setBrightPaletteCircles(){
     setCircle('red', generateBright(generateRed())); //red
     setCircle('orange', generateBright(generateOrange())); //orange
     setCircle('yellow', generateBright(generateYellow())); //yellow
-    setCircle('yellowGreen', generateBright(generateYellowGreen())); //yellowGreen
+    setCircle('yellowgreen', generateBright(generateYellowGreen())); //yellowGreen
     setCircle('green', generateBright(generateGreen())); //green
-    setCircle('greenCyan', generateBright(generateGreenCyan())); //greenCyan
+    setCircle('greencyan', generateBright(generateGreenCyan())); //greenCyan
     setCircle('cyan', generateBright(generateCyan())); //cyan
-    setCircle('cyanBlue', generateBright(generateCyanBlue())); //cyanBlue
+    setCircle('cyanblue', generateBright(generateCyanBlue())); //cyanBlue
     setCircle('blue', generateBright(generateBlue())); //blue
-    setCircle('blueMagenta', generateBright(generateBlueMagenta())); //blueMagenta
+    setCircle('bluemagenta', generateBright(generateBlueMagenta())); //blueMagenta
     setCircle('magenta', generateBright(generateMagenta())); //magenta
-    setCircle('magentaRed', generateBright(generateMagentaRed())); //magentaRed
+    setCircle('magentared', generateBright(generateMagentaRed())); //magentaRed
 }
 
 /**
@@ -1162,15 +1162,15 @@ function setMutedPaletteCircles(){
     setCircle('red', generateMuted(generateRed())); //red
     setCircle('orange', generateMuted(generateOrange())); //orange
     setCircle('yellow', generateMuted(generateYellow())); //yellow
-    setCircle('yellowGreen', generateMuted(generateYellowGreen())); //yellowGreen
+    setCircle('yellowgreen', generateMuted(generateYellowGreen())); //yellowGreen
     setCircle('green', generateMuted(generateGreen())); //green
-    setCircle('greenCyan', generateMuted(generateGreenCyan())); //greenCyan
+    setCircle('greencyan', generateMuted(generateGreenCyan())); //greenCyan
     setCircle('cyan', generateMuted(generateCyan())); //cyan
-    setCircle('cyanBlue', generateMuted(generateCyanBlue())); //cyanBlue
+    setCircle('cyanblue', generateMuted(generateCyanBlue())); //cyanBlue
     setCircle('blue', generateMuted(generateBlue())); //blue
-    setCircle('blueMagenta', generateMuted(generateBlueMagenta())); //blueMagenta
+    setCircle('bluemagenta', generateMuted(generateBlueMagenta())); //blueMagenta
     setCircle('magenta', generateMuted(generateMagenta())); //magenta
-    setCircle('magentaRed', generateMuted(generateMagentaRed())); //magentaRed
+    setCircle('magentared', generateMuted(generateMagentaRed())); //magentaRed
 }
 
 /**
@@ -1282,15 +1282,15 @@ function setPastelPaletteCircles(){
     setCircle('red', generatePastel(generateRed())); //red
     setCircle('orange', generatePastel(generateOrange())); //orange
     setCircle('yellow', generatePastel(generateYellow())); //yellow
-    setCircle('yellowGreen', generatePastel(generateYellowGreen())); //yellowGreen
+    setCircle('yellowgreen', generatePastel(generateYellowGreen())); //yellowGreen
     setCircle('green', generatePastel(generateGreen())); //green
-    setCircle('greenCyan', generatePastel(generateGreenCyan())); //greenCyan
+    setCircle('greencyan', generatePastel(generateGreenCyan())); //greenCyan
     setCircle('cyan', generatePastel(generateCyan())); //cyan
-    setCircle('cyanBlue', generatePastel(generateCyanBlue())); //cyanBlue
+    setCircle('cyanblue', generatePastel(generateCyanBlue())); //cyanBlue
     setCircle('blue', generatePastel(generateBlue())); //blue
-    setCircle('blueMagenta', generatePastel(generateBlueMagenta())); //blueMagenta
+    setCircle('bluemagenta', generatePastel(generateBlueMagenta())); //blueMagenta
     setCircle('magenta', generatePastel(generateMagenta())); //magenta
-    setCircle('magentaRed', generatePastel(generateMagentaRed())); //magentaRed
+    setCircle('magentared', generatePastel(generateMagentaRed())); //magentaRed
 }
 
 /**
@@ -1356,15 +1356,15 @@ function setCreamPaletteCircles(){
     setCircle('red', generateCream(generateRed())); //red
     setCircle('orange', generateCream(generateOrange())); //orange
     setCircle('yellow', generateCream(generateYellow())); //yellow
-    setCircle('yellowGreen', generateCream(generateYellowGreen())); //yellowGreen
+    setCircle('yellowgreen', generateCream(generateYellowGreen())); //yellowGreen
     setCircle('green', generateCream(generateGreen())); //green
-    setCircle('greenCyan', generateCream(generateGreenCyan())); //greenCyan
+    setCircle('greencyan', generateCream(generateGreenCyan())); //greenCyan
     setCircle('cyan', generateCream(generateCyan())); //cyan
-    setCircle('cyanBlue', generateCream(generateCyanBlue())); //cyanBlue
+    setCircle('cyanblue', generateCream(generateCyanBlue())); //cyanBlue
     setCircle('blue', generateCream(generateBlue())); //blue
-    setCircle('blueMagenta', generateCream(generateBlueMagenta())); //blueMagenta
+    setCircle('bluemagenta', generateCream(generateBlueMagenta())); //blueMagenta
     setCircle('magenta', generateCream(generateMagenta())); //magenta
-    setCircle('magentaRed', generateCream(generateMagentaRed())); //magentaRed
+    setCircle('magentared', generateCream(generateMagentaRed())); //magentaRed
 }
 
 /**
