@@ -1,23 +1,31 @@
 <!--deep-brown eye color palette testing-->
 
-<html>
-    <head>
-        <title>Title</title>
-        <meta name="description" content="basic html template">
-        <meta name="author" content="Katelynn Alexander">
-        
-<!--        <link rel="stylesheet" type="text/css" href="stylesheet.css">-->
-<!--        <script src="js/SLBucket.js"></script>-->
-<!--        <script src="js/HBucket.js"></script>-->
-        <script src="js/HSLBucket.js"></script>
-        
-        
+<?php include_once "lib/top.inc.php"; ?>
+        <title>Title</title>      
+        <link rel="stylesheet" type="text/css" href="css/stylesheet5.css">
     </head>
     <body>
         <center>
             <h1>Eye color palette testing</h1>
             <h2>Deep-brown</h2>
                 <p>This is paragraph text</p>
+                <div id="circle" class="test1">0</div>
+                <div id="circle" class="test2">1</div>
+                <div id="circle" class="2">2</div>
+                <div id="circle" class="3">3</div>
+                <div id="circle" class="4">4</div>
+                <div id="circle" class="5">5</div>
+                <div id="circle" class="6">6</div>
+                <div id="circle" class="7">7</div>
+                <div id="circle" class="8">8</div>
+                <div id="circle" class="9">9</div>
+                <div id="circle" class="10">10</div>
+                <div id="circle" class="11">11</div>
+                <div id="circle" class="12">12</div>
+                <div id="circle" class="13">13</div>
+                <div id="circle" class="14">14</div>
+                <div id="circle" class="15">15</div>
+            
             <h2>Honey-brown</h2>
             <h2>Green</h2>
             <h2>Hazel</h2>
@@ -27,9 +35,13 @@
             <h2>Violet</h2>
             <script type="text/javascript">
 //                main();
-                skinTonePaletteTesting();
+//                skinTonePaletteTesting();
                 popColorPaletteTesting();
+                popColorPalette(0);
+                var num = 1;
+                console.log('test'+num);
+                var c = 'test'+num;
+                setCircle('test1', 'red');
             </script>
         </center>
-    </body>
-</html>
+<?php include_once "lib/bottom.inc.php"; ?>

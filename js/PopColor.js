@@ -28,7 +28,7 @@ function eyeColorPaletteTesting(eyeColorID){
         };
         return deepBrown;
     case 1:
-        return 'Honey-Brown' : {
+        var honeyBrown = {
             'id' : 1,
             // if eyes are honey-brown then hue options include:
             // -khaki greens, green
@@ -49,8 +49,9 @@ function eyeColorPaletteTesting(eyeColorID){
                 {'colorname' : 'purple (blue magenta jewel)', 'SLBucket' : 'jewel', 'hue' : generateBlueMagenta(), 'hsl' : generateJewel(hue)}
             ]
         };
+            return honeyBrown;
     case 2:
-        return 'Hazel' : {
+        var hazel = {
             'id' : 2,
             // if eyes are hazel then hue options include:
             // -orange
@@ -70,8 +71,9 @@ function eyeColorPaletteTesting(eyeColorID){
                 {'colorname' : 'moss green (green muted)', 'SLBucket' : 'muted', 'hue' : generateGreen(), 'hsl' : generateMuted(hue)}
             ]
         };
+            return hazel;
     case 3:
-        return 'Green' : {
+        var green = {
             'id' : 3,
                 // if eyes are green then hue options include:
                 // -plum, purple, lavender, violet
@@ -96,8 +98,9 @@ function eyeColorPaletteTesting(eyeColorID){
                 {'colorname' : 'jewel tone blue (blue jewel)', 'SLBucket' : 'jewel', 'hue' : generateBlue(), 'hsl' : generateJewel(hue)}
             ]
         };
+            return green;
     case 4:
-        return 'Deep-Blue' : {    
+        var deepBlue = {    
             'id' : 4,
                 // if eyes are deep-blue then hue options include:
                 // -all shades of pink
@@ -120,8 +123,9 @@ function eyeColorPaletteTesting(eyeColorID){
                 {'colorname' : 'peach (orange pastel)', 'SLBucket' : 'pastel', 'hue' : 'orange', 'hsl' : generatePastel(hue)}
             ]
         };
+            return deepBlue;
     case 5:
-        return 'Pale-Blue' : {
+        var paleBlue = {
             'id' : 5,
                 // if eyes are pale-blue then hue options include:
                 // -all shades of pink
@@ -142,8 +146,9 @@ function eyeColorPaletteTesting(eyeColorID){
                 {'colorname' : 'lilac (blue magenta pastel)', 'SLBucket' : 'pastel', 'hue' : generateBlueMagenta(), 'hsl' : generatePastel(hue)}
             ]
         };
+            return paleBlue;
     case 6: 
-        return 'Grey' : {
+        var grey = {
             'id' : 6,
                 // if eyes are grey then hue options include:
                 // blues
@@ -170,8 +175,9 @@ function eyeColorPaletteTesting(eyeColorID){
                 {'colorname' : 'green pastel', 'SLBucket' : 'pastel', 'hue' : generateGreen(), 'hsl' : generatePastel(hue)}
             ]
         };
+            return grey;
     case 7:
-        return 'Violet' : {
+        var violet = {
             'id' : 7,
                 // if eyes are violet then hue options include:
                 // -golden brown
@@ -198,6 +204,7 @@ function eyeColorPaletteTesting(eyeColorID){
                 {'colorname' : '? (blue magenta pastel)', 'SLBucket' : 'pastel', 'hue' : generateBlueMagenta(), 'hsl' : generatePastel(hue)}
             ]
         };
+            return violet;
     default:
         return 'Invalid eye color';
     }

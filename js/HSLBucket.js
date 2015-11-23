@@ -1,16 +1,14 @@
 var flag = 'true';
+
+// ~~~~~~~~~~~~~~~~~ \\
+// Eye colors
+// ~~~~~~~~~~~~~~~~~ \\
+var eyeColorNames = ['Deep-Brown', 'Honey-Brown', 'Hazel', 'Green', 'Deep-Blue', 'Pale-Blue', 'Grey', 'Violet'];
+
 function debug(words){
     if(flag === 'true'){
         console.log(words);
     }
-}
-
-function main() {
-//    var hsl = "hsl(123, 456%, 789%)";
-//    getHue(hsl);
-//    getSaturation(hsl);
-//    getLightness(hsl);
-//    debug(generateOrange());
 }
 
 function getNumPopColorCirc(v){
@@ -22,7 +20,6 @@ function getNumPopColorCirc(v){
 }
 
 function setCircle(circclass, newcolor){
-//    flag = 'false';
     var c = "." + circclass;
     debug(c);
     var n = "'" + newcolor + "'";
@@ -34,21 +31,29 @@ function setCircle(circclass, newcolor){
     debug(background);
 }
 
-function popColorPaletteTesting(){
-    for(var i = 0; i < 8; i++){
-        debug(popColorPalette(i));
+function getEyeColorID(eyeColorName){
+    for(var i = 0; i < eyeColorNames.length; i++){
+        if(eyeColorName === eyeColorNames[i]){
+            return i;   
+        }
     }
 }
 
+function pickPopColor(eyeColorName){
+    var eyeColorID = getEyeColorID(eyeColorName);
+    var val = randomIntFromInterval(0, popColorPalette(eyeColorID).popcolor.length-1);
+    console.log('random number='+val);
+    setCircle('pop', popColorPalette(eyeColorID).popcolor[val].hsl);
+}
+
 function popColorPalette(eyeColorID){
-    flag = 'false';
     //possibly use the eyeColorPalette object from Palette2.js
     //eyeColorID = 0 to 7
     switch (eyeColorID) {
     case 0:
         var deepBrown = {
-            'eyeColorName' : 'Deep-Brown',
-            'id' : 0,
+            'id' : eyeColorID,
+            'eyeColorName' : eyeColorNames[eyeColorID],
             // if eyes are deep-brown then hue options include:
             // -khaki greens, greens, olive green
             // -soft pinks
@@ -69,11 +74,12 @@ function popColorPalette(eyeColorID){
                 //{'colorname' : 'camel brown', 'SLBucket' : 'XXX', 'hue' : '"XXX"'}
             ]
         };
+        console.log(deepBrown);
         return deepBrown;
     case 1:
         var honeyBrown = {
-            'eyeColorName' : 'Honey-Brown',
-            'id' : 1,
+            'id' : eyeColorID,
+            'eyeColorName' : eyeColorNames[eyeColorID],
             // if eyes are honey-brown then hue options include:
             // -khaki greens, green
             // -soft pinks
@@ -93,11 +99,12 @@ function popColorPalette(eyeColorID){
                 {'colorname' : 'purple (blue magenta jewel)', 'SLBucket' : 'jewel', 'hue' : generateBlueMagenta(), 'hsl' : generateJewel(hue)}
             ]
         };
+        console.log(honeyBrown);
         return honeyBrown;
     case 2:
         var hazel = {
-            'eyeColorName' : 'Hazel',
-            'id' : 2,
+            'id' : eyeColorID,
+            'eyeColorName' : eyeColorNames[eyeColorID],
             // if eyes are hazel then hue options include:
             // -orange
             // -burgundy
@@ -116,11 +123,12 @@ function popColorPalette(eyeColorID){
                 {'colorname' : 'moss green (green muted)', 'SLBucket' : 'muted', 'hue' : generateGreen(), 'hsl' : generateMuted(hue)}
             ]
         };
+        console.log(hazel);
         return hazel;
     case 3:
         var green = {
-            'eyeColorName' : 'Green',
-            'id' : 3,
+            'id' : eyeColorID,
+            'eyeColorName' : eyeColorNames[eyeColorID],
                 // if eyes are green then hue options include:
                 // -plum, purple, lavender, violet
                 // -deep greens, greens
@@ -144,11 +152,12 @@ function popColorPalette(eyeColorID){
                 {'colorname' : 'jewel tone blue (blue jewel)', 'SLBucket' : 'jewel', 'hue' : generateBlue(), 'hsl' : generateJewel(hue)}
             ]
         };
+        console.log(green);
         return green;
     case 4:
         var deepBlue = {
-            'eyeColorName' : 'Deep-Blue',
-            'id' : 4,
+            'id' : eyeColorID,
+            'eyeColorName' : eyeColorNames[eyeColorID],
                 // if eyes are deep-blue then hue options include:
                 // -all shades of pink
                 // -deep blues
@@ -170,11 +179,12 @@ function popColorPalette(eyeColorID){
                 {'colorname' : 'peach (orange pastel)', 'SLBucket' : 'pastel', 'hue' : 'orange', 'hsl' : generatePastel(hue)}
             ]
         };
+        console.log(deepBlue);
         return deepBlue
     case 5:
         var paleBlue = {
-            'eyeColorName' : 'Pale-Blue',
-            'id' : 5,
+            'id' : eyeColorID,
+            'eyeColorName' : eyeColorNames[eyeColorID],
                 // if eyes are pale-blue then hue options include:
                 // -all shades of pink
                 // -deep blues
@@ -194,11 +204,12 @@ function popColorPalette(eyeColorID){
                 {'colorname' : 'lilac (blue magenta pastel)', 'SLBucket' : 'pastel', 'hue' : generateBlueMagenta(), 'hsl' : generatePastel(hue)}
             ]
         };
+        console.log(paleBlue);
         return paleBlue;
     case 6: 
         var grey = {
-            'eyeColorName' : 'Grey',
-            'id' : 6,
+            'id' : eyeColorID,
+            'eyeColorName' : eyeColorNames[eyeColorID],
                 // if eyes are grey then hue options include:
                 // blues
                 // greens
@@ -224,11 +235,12 @@ function popColorPalette(eyeColorID){
                 {'colorname' : 'green pastel', 'SLBucket' : 'pastel', 'hue' : generateGreen(), 'hsl' : generatePastel(hue)}
             ]
         };
+        console.log(grey);
         return grey;
     case 7:
         var violet = {
-            'eyeColorName' : 'Violet',
-            'id' : 7,
+            'id' : eyeColorID,
+            'eyeColorName' : eyeColorNames[eyeColorID],
                 // if eyes are violet then hue options include:
                 // -golden brown
                 // -soft green
@@ -254,6 +266,7 @@ function popColorPalette(eyeColorID){
                 {'colorname' : '? (blue magenta pastel)', 'SLBucket' : 'pastel', 'hue' : generateBlueMagenta(), 'hsl' : generatePastel(hue)}
             ]
         };
+        console.log(violet);
         return violet;
     default:
         return 'Invalid eye color';
