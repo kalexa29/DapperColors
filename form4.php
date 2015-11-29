@@ -7,7 +7,7 @@
             <!--Color features form-->
             <h1 align="center">Dapper Colors</h1>
             <br><br>
-            <p><strong>Directions:</strong> Please fill in the information in the form below. Try to choose the colors that most closely match your features for the best results.</p>
+            <p><strong>Directions:</strong> Please fill in the information in the form below. Choose the colors that most closely match your features.</p>
             <p class="error">* required fields</p>
             <div class="row">
                 <div class="col-xs-12 col-md-4 col-lg-6">

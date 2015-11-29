@@ -4,7 +4,7 @@
     </head>
     <body>
         <div id="container">
-            <h1><center>Dapper Results</center></h1>
+            <h1><center>Dapper Palette</center></h1>
             <div class="row">
                 <div id="results" class="col-xs-12 col-md-8">
                     <img class="skinLayer" src="pics/transBlock.png"/>
@@ -32,7 +32,7 @@
                     <h2 align="center">Pop color</h2>
                 </div>
             </div>
-                <!--Formation: 4 / 4 / 3-->
+                <!--Formation: 4 / 4 / 4-->
             <div id="palette">
                 <div class="row">
                     <div class="col-xs-12 col-sm-3 col-md-3">
@@ -62,15 +62,19 @@
 <!--                        <h3 align="center">Green Cyan</h3>-->
                     </div>
                     <div class="col-xs-12 col-sm-3 col-md-3">
+                    <div id="circle" class="cyan"></div>
+<!--                        <h3 align="center">Cyan</h3>-->
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3">
                         <div id="circle" class="cyanblue"></div>
 <!--                        <h3 align="center">Cyan Blue</h3>-->
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-xs-12 col-sm-3 col-md-3">
                         <div id="circle" class="blue"></div>
 <!--                        <h3 align="center">Blue</h3>-->
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-xs-12 col-sm-3 col-md-3">
                         <div id="circle" class="bluemagenta"></div>
 <!--                        <h3 align="center">Blue Magenta</h3>-->
@@ -83,10 +87,16 @@
                         <div id="circle" class="magentared"></div>
 <!--                        <h3 align="center">Magenta Red</h3>-->
                     </div>
-                    <div class="col-xs-12 col-sm-3 col-md-3">
-                        <input type="tryagain" class="btn btn-lg btn-info" value="Try Again" onclick="window.location.href='http://localhost:8888/dapper/form4.php'">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-md-6">
+                            <input type="features" class="btn btn-lg btn-info" value="Update features" onclick="window.location.href='http://localhost:8888/dapper/form4.php'">
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-6">
+                            <input type="palette" class="btn btn-lg btn-info" value="Update palette" onclick="window.location.href='http://localhost:8888/dapper/confirmation4.php'">
+                        </div>
                     </div>
                 </div>
+               
             </div>
         </div>
         <script type="text/javascript">

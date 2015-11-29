@@ -12,13 +12,19 @@
     min-height: 100%;
 }
 
-input[type="tryagain"]{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
+input[type="features"]{
+/*    width: 100px;*/
+    float: left;
     position: relative;
-    top: 25px;
-    bottom: 0;
+    top: 15px;
+    margin-bottom: 10px;
+}
+input[type="palette"]{
+/*    width: 150px;*/
+    float: right;
+    position: relative;
+    top: 15px;
+    margin-bottom: 10px;
 }
 
 #results {
