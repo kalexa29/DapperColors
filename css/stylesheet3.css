@@ -30,13 +30,13 @@ body img {
     border: 0;
     color: #000000;
 }
-footer {
+footer .row{
     clear:both;
     position:fixed;
     text-align:left;
     left: 90%;
-    bottom:0;
-    width:100%;
+    bottom:0px;
+    width:100px;
     height:60px;   /* Height of the footer */
 }
 .deep-brownEyeS, .honey-brownEyeS, .hazelEyeS, .greenEyeS, .deep-blueEyeS, .pale-blueEyeS, .greyEyeS, .violetEyeS {
